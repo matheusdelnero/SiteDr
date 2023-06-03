@@ -8,6 +8,7 @@ body{
 header{
     display: flex;
     justify-content: center;
+    background-color: #22be90;
 }
 
 .logo h2{
@@ -49,8 +50,8 @@ header{
 .image1 img{
     width: 460px;
     height: auto;
-    margin-top: 20px;
-    margin-left: 55px;
+    
+
 }
 
 /*AREA CARDS */
@@ -62,7 +63,9 @@ header{
  align-items: center;
  margin-top: 100px;
  margin-bottom: 100px;
+
 }
+
 
 .section-cards h2{
     color: #fff;
@@ -78,7 +81,7 @@ header{
 
 .card{
     background-color: #2C2F37;
-    width: 477px;
+    width: 250px;
     height: 180px;
     
     display: flex;
@@ -87,6 +90,14 @@ header{
     flex-direction: column;
     color: #fff;
 }
+
+.maca{
+    width: 400px;
+    height: 400px;
+    
+}
+
+
 
 .card:hover{
     background-color: #1A7993;
@@ -101,7 +112,7 @@ header{
 
 .section-3{
     background-color: #1A7993;
-    height: 342px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,6 +122,8 @@ header{
 .area-title-2 h1{
     color: #fff;
     font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .area-title-2 h3{
@@ -135,6 +148,7 @@ header{
     height: auto;
     margin-top: 5px;
     margin-left: 100px;
+    float: left;
 }
 
 .area-form{
@@ -155,6 +169,9 @@ header{
     flex-direction: column;
     width: 400px;
     height: 300px;
+}
+.formulario2{
+    background-color: white;
 }
 
 .formulario input{
@@ -192,3 +209,5 @@ footer{
     width: 30px;
     margin-left: 15px;
 }
+
+
