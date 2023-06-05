@@ -54,6 +54,61 @@ header{
 
 }
 
+
+.home-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card1{
+    flex-direction: row;
+    
+}
+/*AREA CARDS CORRETO*/
+
+;.home-card{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cardshome{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.cardhome{
+    flex-direction: row;
+    background-color: antiquewhite;
+    width: 20%;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.divvideo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+    
+    
+}
+
+.dr{
+    text-align: center;
+}
+
+.video{
+width: 60%;
+height: 60%;
+}
+
 /*AREA CARDS */
 
 .section-cards{
@@ -61,8 +116,8 @@ header{
  justify-content: center;
  flex-direction: column;
  align-items: center;
- margin-top: 100px;
- margin-bottom: 100px;
+ margin-top: 40px;
+ margin-bottom: 20px;
 
 }
 
@@ -83,7 +138,6 @@ header{
     background-color: #2C2F37;
     width: 250px;
     height: 180px;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,6 +153,29 @@ header{
 
 
 
+.mural{
+    display: flex;
+    justify-content: center;
+}
+
+.mural-item{
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    width: 450px;
+    margin: 75px;
+
+}
+.trena{
+    width: 200px;
+    height: 200px;
+}
+
+.mural-item  {
+    font-size: 20;
+}
+
+
 .card:hover{
     background-color: #1A7993;
     transition: 0.3s all;
@@ -112,11 +189,11 @@ header{
 
 .section-3{
     background-color: #1A7993;
-    height: 700px;
+    height: 1100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    
 }
 
 .area-title-2 h1{
@@ -157,11 +234,14 @@ header{
     align-items: center;
     margin-bottom: 100px;
     flex-direction: column;
+    background-color: white;
+    
 }
 
 .area-form h2{
-    color: #fff;
+    color: #000000;
     text-align: center;
+
 }
 
 .formulario form{
