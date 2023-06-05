@@ -24,6 +24,8 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
 }
 
 .area-title h3{
@@ -82,26 +84,34 @@ header{
 
 .cardhome{
     flex-direction: row;
-    background-color: antiquewhite;
+    background-color: #1A7993;
     width: 20%;
     height: 80px;
     align-items: center;
     text-align: center;
     padding-top: 40px;
+    
 }
 
 .divvideo{
     display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
+  margin-top: 0px;
 
+  
     
     
 }
 
 .dr{
     text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    color: #1A7993;
+
+    
 }
 
 .video{
@@ -143,11 +153,12 @@ height: 60%;
     align-items: center;
     flex-direction: column;
     color: #fff;
+    border-radius: 95px;
 }
 
-.maca{
-    width: 400px;
-    height: 400px;
+.imgmaca{
+    width: 350px;
+    height: 350px;
     
 }
 
@@ -162,14 +173,12 @@ height: 60%;
     background-color: white;
     border-radius: 30px;
     text-align: center;
-    width: 450px;
-    margin: 75px;
+    width: 30vh;
+    margin: 1vh;
+
 
 }
-.trena{
-    width: 200px;
-    height: 200px;
-}
+
 
 .mural-item  {
     font-size: 20;
@@ -189,10 +198,11 @@ height: 60%;
 
 .section-3{
     background-color: #1A7993;
-    height: 1100px;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -221,14 +231,14 @@ height: 60%;
 }
 
 .image2 img{
-    width: 280px;
+    width: 30%;
     height: auto;
     margin-top: 5px;
     margin-left: 100px;
     float: left;
 }
 
-.area-form{
+.resultados{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,6 +246,20 @@ height: 60%;
     flex-direction: column;
     background-color: white;
     
+}
+
+.resultados-img{
+    width: 50%;
+    height: 50%;
+}
+
+.resultados-text{
+    text
+}
+
+.trena{
+    width: 27%;
+    height: 27%;
 }
 
 .area-form h2{
