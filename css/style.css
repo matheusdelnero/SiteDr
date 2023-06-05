@@ -197,7 +197,7 @@ height: 60%;
 /* SECTION-3*/
 
 .section-3{
-    background-color: #1A7993;
+    background-color: #22be90;
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -249,17 +249,37 @@ height: 60%;
 }
 
 .resultados-img{
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
+    padding-bottom: 50px;
+    padding: 50px;
+
+    
+    
+    
 }
 
-.resultados-text{
-    text
-}
+
 
 .trena{
     width: 27%;
     height: 27%;
+}
+
+
+.depoimentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    background-color: #22be90;
+}
+
+.depoimentos-text{
+    text-align: center;
+    
+
 }
 
 .area-form h2{
