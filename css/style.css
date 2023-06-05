@@ -249,8 +249,8 @@ height: 60%;
 }
 
 .resultados-img{
-    width: 40%;
-    height: 40%;
+    width: 900px;
+    height: 600px;
     padding-bottom: 50px;
     padding: 50px;
 
@@ -266,19 +266,36 @@ height: 60%;
     height: 27%;
 }
 
+.depoimentos-text{
+    text-align: center;
+    
+
+}
 
 .depoimentos{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #22be90;
+    
 }
 
-.depoimentos-text{
-    text-align: center;
+
+
+.depoimentos-img{
+    width: 400px;
+    height: 400px;
+    padding: 200px;
     
+    
+}
+
+.depoimentos-card{
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
 
 }
 
