@@ -1,4 +1,4 @@
-
+/*GERAL*/
 
 body{
     font-family: 'Oswald';
@@ -15,6 +15,7 @@ header{
     
 }
 
+/*LOGO*/
 .logo h2{
     color: #fff;
     font-size: 30px;
@@ -24,6 +25,8 @@ header{
     color: #1A7993;
 }
 
+
+/*INICIO*/
 .section-1{
     display: flex;
     justify-content: center;
@@ -67,19 +70,12 @@ header{
 
 }
 
+/*AREA CARDS 1*/
 
-.home-card{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 
-}
 
-.card1{
-    flex-direction: row;
-    
-}
-/*AREA CARDS CORRETO*/
+
+
 
 ;.home-cards{
     display: flex;
@@ -89,7 +85,6 @@ header{
 }
 
 .cardshome{
-
     display: flex;
     flex-direction: row;
     
@@ -118,6 +113,14 @@ header{
     padding-top: 40px;
     
 }
+
+.card1{
+    flex-direction: row;
+    
+}
+
+/*VIDEO*/
+
 
 .divvideo{
 display: flex;
@@ -150,89 +153,11 @@ width: 80%;
 height: 80%;
 }
 
-/*AREA CARDS */
-
-.section-cards{
- display: flex;
- justify-content: center;
- flex-direction: column;
- align-items: center;
- margin-top: 40px;
- margin-bottom: 20px;
-
-}
-
-
-.section-cards h2{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 22px;
-}
-
-.cards{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-}
-
-.card{
-    background-color: #ffffff;
-    width: 250px;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #000000;
-    gap: 5px;
-
-    border-radius: 15px;
-    box-shadow: 0px 5px 20px black;
-}
-
-.imgmaca{
-    width: 350px;
-    height: 350px;
-    
-}
-
-
-
-.mural{
-    display: flex;
-    justify-content: center;
-}
-
-.mural-item{
-    background-color: white;
-    border-radius: 30px;
-    text-align: center;
-    width: 30vh;
-    margin: 1vh;
-
-
-}
-
-
-.mural-item  {
-    font-size: 20;
-}
-
-
-.card:hover{
-    background-color: #1A7993;
-    transition: 0.3s all;
-}
-
-.card img{
-    width: 65px;
-}
-
-/* SECTION-3*/
+/*AREA CARDS 2 */
 
 .section-3{
     background-color: #205454;
-    height: 70vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,6 +166,10 @@ height: 80%;
   background-size: cover;
     
     
+}
+
+.area-title-2{
+    height: 100;
 }
 
 .area-title-2 h1{
@@ -266,6 +195,77 @@ height: 80%;
     font-weight: bold;
     cursor: pointer;
 }
+
+.mural{
+    display: flex;
+    justify-content: center;
+}
+
+.mural-item{
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    width: 30vh;
+    margin: 1vh;
+    font-size: 20;
+
+
+}
+
+.section-cards{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 40px;
+ margin-bottom: 20px;
+ 
+
+}
+
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.card{
+    background-color: #ffffff;
+    width: 250px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+    gap: 5px;
+
+    border-radius: 250px;
+    box-shadow: 0px 5px 20px black;
+}
+
+.imgmaca{
+    width: 350px;
+    height: 350px;
+    
+}
+
+
+.card:hover{
+    background-color: #1A7993;
+    transition: 0.3s all;
+}
+
+.card img{
+    width: 65px;
+}
+
+/* RESULTADOS */
+
+
+
 
 .image2 img{
     width: 30%;
@@ -295,6 +295,25 @@ height: 80%;
     
 }
 
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+.formulario2{
+    background-color: white;
+}
+
+.formulario input{
+    margin-top: 20px;
+    padding-left: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-family: 'Oswald';
+}
+
 
 
 .trena{
@@ -302,12 +321,7 @@ height: 80%;
     height: 30%;
 }
 
-.depoimentos-text{
-    text-align: center;
-    padding-top: 20px;
-    
-
-}
+/* DEPOIMENTOS */
 
 .depoimentos{
     display: flex;
@@ -322,6 +336,12 @@ height: 80%;
     
 }
 
+.depoimentos-text{
+    text-align: center;
+    padding-top: 20px;
+    
+
+}
 
 
 .depoimentos-img{
@@ -345,24 +365,7 @@ height: 80%;
 
 }
 
-.formulario form{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 300px;
-}
-.formulario2{
-    background-color: white;
-}
 
-.formulario input{
-    margin-top: 20px;
-    padding-left: 10px;
-    height: 40px;
-    border: none;
-    outline: none;
-    font-family: 'Oswald';
-}
 
 input::placeholder{
     color: #000;
