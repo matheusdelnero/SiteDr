@@ -4,13 +4,14 @@ body{
     font-family: 'Oswald';
     margin: 0;
     padding: 0;
-    background-color: #22be90;
+    background-color: #205454
 }
 
 header{
     display: flex;
     justify-content: center;
-    background-color: #22be90;
+    background-color: #205454;
+    
     
 }
 
@@ -47,7 +48,7 @@ header{
 
 .area-title a{
     display: inline-block;
-    background-color: #1A7993;
+    background-color: #205454;
     padding: 15px 60px;
     color: #fff;
     font-size: 20px;
@@ -96,13 +97,13 @@ header{
 
 .cardhome{
     flex-direction: row;
-    background-color: #22be90;
+    background-color: #205454;
     width: 20%;
     height: 80px;
     align-items: center;
     text-align: center;
     padding-top: 40px;
-    box-shadow: 0px 0px 10px #22be90;
+    
     
     
 }
@@ -115,7 +116,7 @@ header{
     align-items: center;
     text-align: center;
     padding-top: 40px;
-    box-shadow: 0px 0px 10px #22be90;
+    
 }
 
 .divvideo{
@@ -135,7 +136,7 @@ display: flex;
     text-align: center;
     background-color: #fff;
     margin: 0px;
-    color: #3bd197;
+    color: #205454;
     
     padding-top: 25px;
     font-size: xx-large;
@@ -230,7 +231,7 @@ height: 80%;
 /* SECTION-3*/
 
 .section-3{
-    background-color: #22be90;
+    background-color: #205454;
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -284,8 +285,8 @@ height: 80%;
 }
 
 .resultados-img{
-    width: 900px;
-    height: 600px;
+    width: 60%;
+    height: 60%;
     padding-bottom: 50px;
     padding: 50px;
 
@@ -297,12 +298,13 @@ height: 80%;
 
 
 .trena{
-    width: 27%;
-    height: 27%;
+    width: 30%;
+    height: 30%;
 }
 
 .depoimentos-text{
     text-align: center;
+    padding-top: 20px;
     
 
 }
@@ -313,7 +315,7 @@ height: 80%;
     align-items: center;
     margin-bottom: 10px;
     flex-direction: row;
-    background-color: #22be90;
+    
     background-image: url(../assets/fundo3.png);
     background-repeat: no-repeat;
     background-size: cover;
