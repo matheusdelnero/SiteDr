@@ -329,15 +329,15 @@ height: 80%;
 /* DEPOIMENTOS */
 
 .depoimentos{
+    height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
     flex-direction: row;
-    
     background-image: url(../assets/fundo3.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
+    
     
 }
 
@@ -349,18 +349,21 @@ height: 80%;
 }
 
 
-.depoimentos-img{
-    width: 400px;
-    height: 400px;
-    padding: 200px;
+.depoimentos-card{
+    height: auto;
+    padding: 150px;
+    
+    
     
     
 }
 
-.depoimentos-card{
-    width: 600px;
-    height: 600px;
+.depoimentos-img{
+    width: 100%;
+    height: 65%;
     border-radius: 20px;
+    
+    
 
 }
 
