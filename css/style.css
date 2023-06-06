@@ -112,6 +112,7 @@ header{
     text-align: center;
     padding-top: 40px;
     
+    
 }
 
 .card1{
@@ -232,18 +233,22 @@ height: 80%;
 }
 
 .card{
-    background-color: #ffffff;
-    width: 250px;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #000000;
-    gap: 5px;
-
-    border-radius: 250px;
-    box-shadow: 0px 5px 20px black;
+    flex-direction: row;
+        background-color: #ffffff;
+        width: 20%;
+        height: 80px;
+        align-items: center;
+        padding: 25px;
+        border-radius: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #000000;
+        gap: 5px;
+        margin-bottom: 50px;
+        
+        
+    
 }
 
 .imgmaca{
@@ -344,7 +349,7 @@ height: 80%;
 }
 
 
-.depoimentos-img{
+.depoimentos-card{
     width: 400px;
     height: 400px;
     padding: 200px;
