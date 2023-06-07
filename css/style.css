@@ -354,45 +354,43 @@ height: 80%;
 
 /* DEPOIMENTOS */
 
-.depoimentos{
-    height: auto;
+
+.container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-image: url(../assets/fundo3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
-    
-    
 }
 
-.depoimentos-text{
-    text-align: center;
+.subdiv {
+    width: 30%;
+    height: 660px;
     
-    padding-top: 20px;
-    
-
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 60px;
 }
 
-
-.depoimentos-card{
+.subdiv img {
+    width: 400px;
+    max-width: 100%;
     height: auto;
-    padding: 150px;
-    
-    
-    
-    
 }
 
-.depoimentos-img{
-    width: 100%;
-    height: 65%;
-    border-radius: 20px;
-    
-    
-
+@media (max-width: 768px) {
+    .subdiv {
+        width: 100%;
+    }
 }
+
+
+
+
+
 
 .area-form h2{
     color: #000000;
@@ -428,5 +426,7 @@ footer{
     width: 30px;
     margin-left: 15px;
 }
+
+
 
 
