@@ -133,6 +133,10 @@ display: flex;
     
 }
 
+.maca{
+    height: 100%;
+}
+
 .dr{
     text-align: center;
     background-color: #fff;
@@ -172,6 +176,7 @@ height: 80%;
 }
 
 .area-title-2 h1{
+    padding-top: 49px;
     color: #fff;
     font-size: 35px;
     text-align: justify;
@@ -291,7 +296,7 @@ height: 80%;
 .image2 img{
     width: 30%;
     height: auto;
-    margin-top: 5px;
+    
     margin-left: 100px;
     float: left;
 }
