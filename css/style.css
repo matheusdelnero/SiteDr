@@ -251,6 +251,7 @@ height: 80%;
         height: 80px;
         align-items: center;
         padding: 25px;
+        margin-top: 15px;
         border-radius: 200px;
         display: flex;
         justify-content: center;
@@ -259,15 +260,11 @@ height: 80%;
         gap: 5px;
         margin-bottom: 50px;
         
+
         
     
 }
 
-.imgmaca{
-    width: 350px;
-    height: 350px;
-    
-}
 
 
 .card:hover{
