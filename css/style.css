@@ -34,7 +34,7 @@ header{
     display: flex;
     justify-content: center;
     margin: 0px;
-    height: 600px;
+    height: 700px;
     background-image: url(../assets/fundo1.png);
     background-repeat: no-repeat;
   background-size: cover;
@@ -68,7 +68,7 @@ header{
 }
 
 .image1 img{
-    width: 960px;
+    width: 1000px;
     height: auto;
     max-width: 100%;
     
@@ -153,6 +153,7 @@ display: flex;
     
 width: 80%;
 height: 80%;
+box-shadow: 0px 5px 10px #205454;
 }
 
 /*AREA CARDS 2 */
@@ -178,7 +179,7 @@ height: 80%;
 .area-title-2 h1{
     
     color: #fff;
-    font-size: 35px;
+    font-size: 39px;
     text-align: justify;
 
 }
@@ -318,6 +319,7 @@ height: 80%;
     height: auto;
     max-width: 70%;
     margin-bottom: 50px;
+    margin-left: 20px;
     
    
 }
@@ -377,10 +379,8 @@ height: 80%;
 .subdiv {
     width: 30%;
     height: 660px;
-    
     padding: 10px;
     box-sizing: border-box;
-    margin-bottom: 20px;
     margin-left: 30px;
     margin-top: 60px;
 }
@@ -425,7 +425,11 @@ input[type="submit"]{
 }
 
 .footer{
-    
+
+    background-image: url(../assets/fundo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0px;
 }
 
 .social{
