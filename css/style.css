@@ -354,6 +354,13 @@ height: 80%;
 
 /* DEPOIMENTOS */
 
+.depoimentos{
+    text-align: center;
+    background-color: white;
+    margin: 0px ;
+    color: #205454;
+}
+
 
 .container {
     display: flex;
