@@ -316,11 +316,12 @@ height: 80%;
     max-width: 70%;
     margin-bottom: 50px;
     
-    
+   
+}
 
-    
-    
-    
+.resultados h1{
+    color: #205454;
+    font-size: xx-large;
 }
 
 .formulario form{
