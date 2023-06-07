@@ -4,13 +4,13 @@ body{
     font-family: 'Oswald';
     margin: 0;
     padding: 0;
-    background-color: #205454
+    background-color: #24847c
 }
 
 header{
     display: flex;
     justify-content: center;
-    background-color: #205454;
+    background-color: #24847c;
     
     
 }
@@ -55,7 +55,7 @@ header{
 
 .area-title a{
     display: inline-block;
-    background-color: #205454;
+    background-color: #24847c;
     padding: 15px 60px;
     color: #fff;
     font-size: 20px;
@@ -89,7 +89,7 @@ header{
 
 .cardhome{
     flex-direction: row;
-    background-color: #205454;
+    background-color: #24847c;
     width: 20%;
     height: 80px;
     align-items: center;
@@ -153,13 +153,13 @@ display: flex;
     
 width: 80%;
 height: 80%;
-box-shadow: 0px 5px 10px #205454;
+box-shadow: 0px 5px 10px #24847c;
 }
 
 /*AREA CARDS 2 */
 
 .section-3{
-    background-color: #205454;
+    background-color: #24847c;
     height: 100%;
     height: 760px;
     display: flex;
@@ -278,7 +278,7 @@ box-shadow: 0px 5px 10px #205454;
 
 
 .card:hover{
-    background-color: #1A7993;
+    background-color: #24847c;
     transition: 0.3s all;
 }
 
@@ -325,7 +325,7 @@ box-shadow: 0px 5px 10px #205454;
 }
 
 .resultados h1{
-    color: #205454;
+    color: #24847c;
     font-size: xx-large;
 }
 
@@ -378,11 +378,11 @@ box-shadow: 0px 5px 10px #205454;
 
 .subdiv {
     width: 30%;
-    height: 660px;
+    
     padding: 10px;
     box-sizing: border-box;
     margin-left: 30px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .subdiv img {
