@@ -421,9 +421,15 @@ input[type="submit"]{
     cursor: pointer;
 }
 
-footer{
-    margin-top: 100px;
+.footer{
+    
 }
+
+.social{
+    margin-left: 50px;
+
+}
+
 .social h3{
     color: #fff;
     font-weight: normal;
