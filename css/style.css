@@ -27,6 +27,9 @@ header{
 
 
 /*INICIO*/
+
+
+
 .section-1{
     display: flex;
     justify-content: center;
@@ -60,11 +63,13 @@ header{
 
 .button{
     border-radius: 7px;
+    margin-bottom: 25px;
 }
 
 .image1 img{
     width: 760px;
     height: auto;
+    max-width: 100%;
     
     
 
@@ -82,11 +87,13 @@ header{
     flex-direction: row;
     background-color: #fff;
     
+    
 }
 
 .cardshome{
     display: flex;
     flex-direction: row;
+    
     
 }
 
@@ -176,7 +183,7 @@ height: 80%;
 .area-title-2 h1{
     color: #fff;
     font-size: 35px;
-    text-align: center;
+    
     padding-top: 20px;
 }
 
@@ -200,15 +207,20 @@ height: 80%;
 .mural{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .mural-item{
     background-color: white;
     border-radius: 30px;
     text-align: center;
-    width: 30vh;
+    width: 30%;
     margin: 1vh;
     font-size: 20;
+    
+  padding: 10px;
+  
+  
 
 
 }
@@ -322,6 +334,7 @@ height: 80%;
 
 
 .trena{
+    max-width: 18%;
     width: 30%;
     height: 30%;
 }
@@ -343,6 +356,7 @@ height: 80%;
 
 .depoimentos-text{
     text-align: center;
+    
     padding-top: 20px;
     
 
