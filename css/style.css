@@ -33,7 +33,7 @@ header{
 }
 
 .logo span{
-    color: #26b5dd;
+    color: #205454;
 }
 
 
@@ -628,28 +628,29 @@ input[type="submit"]{
     cursor: pointer;
 }
 
-.footer{
-
+.footer {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os elementos */
+    align-items: center; /* Centraliza verticalmente os elementos */
     background-image: url(../assets/fundo3.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-top: 0px;
-}
-
-.social{
+  }
+  
+  .social {
     margin-left: 20px;
-
-}
-
-.social h3{
+  }
+  
+  .social h3 {
     color: #fff;
     font-weight: normal;
-}
-
-.social img{
+  }
+  
+  .social img {
     width: 30px;
     margin-left: 15px;
-}
+  }
 
 
 
