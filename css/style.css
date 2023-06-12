@@ -13,12 +13,23 @@ header{
     background-color: #24847c;
     
     
+    
+}
+
+.logo-header{
+    float: left; /* Adicione essa propriedade */
+    margin-right: 10px; /* Ajuste a margem conforme necessário */
+    height: 6em;
+    
+
 }
 
 /*LOGO*/
 .logo h2{
     color: #fff;
     font-size: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .logo span{
@@ -40,18 +51,53 @@ header{
   background-size: cover;
 }
 
+
+
 .area-title h3{
     color: #fff;
-    font-weight: normal;
+    font-weight: 1em;
+    margin-left: 10px;
 }
 
 .area-title h1{
+    margin-left: 10px;
     color: #fff;
     font-size: 45px;
-    line-height: 50px;
+    line-height: 70px;
+    
     
     
 }
+
+
+@media (max-width: 767px) {
+    /* Dispositivos móveis com largura de tela até 767 pixels */
+    .area-title h1 {
+      font-size: 42px;
+      line-height: 45px;
+      
+      
+      /* Tamanho menor para dispositivos móveis */
+    }
+    .area-title h3 {
+        font-size: 33px;
+        line-height: 35px; /* Tamanho menor para dispositivos móveis */
+        
+      }
+      .button  {
+        font-size: 23px;
+        line-height: 35px;
+        height: 6%;
+        text-align: center;
+        
+        
+        /* Tamanho menor para dispositivos móveis */
+
+
+    
+        
+        
+      }}
 
 .area-title a{
     display: inline-block;
@@ -65,14 +111,25 @@ header{
 .button{
     border-radius: 7px;
     margin-bottom: 25px;
+    margin-left: 10px;
 }
 
 .image1 img{
-    width: 1000px;
+    width: 1050px;
     height: auto;
-    max-width: 100%;
     
     
+    
+
+}
+
+@media (max-width: 767px) {
+
+
+    .image1 img{
+
+        width: 0px;
+    }
 
 }
 
@@ -91,10 +148,11 @@ header{
     flex-direction: row;
     background-color: #24847c;
     width: 20%;
-    height: 80px;
+    height: 110px;
     align-items: center;
     text-align: center;
     padding-top: 40px;
+    font-size: x-large;
     
     
     
@@ -104,10 +162,11 @@ header{
     flex-direction: row;
     background-color: #ffffff;
     width: 20%;
-    height: 80px;
+    height: 110px;
     align-items: center;
     text-align: center;
     padding-top: 40px;
+    font-size: x-large;
     
     
 }
@@ -115,6 +174,23 @@ header{
 .card1{
     flex-direction: row;
     
+}
+
+
+@media (max-width: 767px) {
+
+    .cardhome{
+        height: 100px;
+        font-size: medium;
+    }
+
+    .cardhome2{
+        height: 100px;
+        font-size: small;
+    }
+
+
+
 }
 
 /*VIDEO*/
@@ -142,9 +218,9 @@ display: flex;
     background-color: #fff;
     margin: 0px;
     color: #205454;
-    
     padding-top: 25px;
     font-size: xx-large;
+    
     
 
     
