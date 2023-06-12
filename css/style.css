@@ -73,44 +73,10 @@ header{
     border-radius: 7px;
     margin-bottom: 25px;
     margin-left: 10px;
+
     
     
 }
-
-
-@media (max-width: 767px) {
-
-    .section-1{
-        margin-left: 10px;
-    }
-    /* Dispositivos móveis com largura de tela até 767 pixels */
-    .area-title h1 {
-      font-size: 42px;
-      line-height: 45px;
-      
-      
-      /* Tamanho menor para dispositivos móveis */
-    }
-    .area-title h3 {
-        font-size: 33px;
-        line-height: 35px; /* Tamanho menor para dispositivos móveis */
-        
-      }
-      .button  {
-        font-size: 22px;
-        line-height: 35px;
-        height: 7%;
-        text-align: center;
-        margin-right: 7px;
-        
-        
-        /* Tamanho menor para dispositivos móveis */
-
-
-    
-        
-        
-      }}
 
 .area-title a{
     display: inline-block;
@@ -131,6 +97,41 @@ header{
     
 
 }
+
+
+@media (max-width: 767px) {
+
+    
+    /* Dispositivos móveis com largura de tela até 767 pixels */
+    .area-title h1 {
+      font-size: 42px;
+      line-height: 45px;
+      
+      
+      /* Tamanho menor para dispositivos móveis */
+    }
+    .area-title h3 {
+        font-size: 33px;
+        line-height: 35px; /* Tamanho menor para dispositivos móveis */
+        
+      }
+      .button  {
+        font-size: 22px;
+        line-height: 35px;
+        height: 7%;
+        text-align: center;
+        
+        
+        
+        /* Tamanho menor para dispositivos móveis */
+
+
+    
+        
+        
+      }}
+
+
 
 @media (max-width: 767px) {
 
@@ -476,7 +477,28 @@ box-shadow: 0px 5px 10px #24847c;
 
 /* RESULTADOS */
 
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+   
 
+}
+
+.slider img {
+  width: 25%; /* 25% para cada imagem quando não está em dispositivos móveis */
+  height: auto;
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 767px) {
+  .slider img {
+    width: 100%; /* 100% para cada imagem quando está em dispositivos móveis */
+    height: auto;
+  }
+}
 
 
 
