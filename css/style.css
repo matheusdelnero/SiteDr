@@ -49,6 +49,7 @@ header{
     background-image: url(../assets/fundo1.png);
     background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 
@@ -57,20 +58,31 @@ header{
     color: #fff;
     font-weight: 1em;
     margin-left: 10px;
+    font-size: 35px;
 }
 
 .area-title h1{
     margin-left: 10px;
     color: #fff;
-    font-size: 45px;
+    font-size: 55px;
     line-height: 70px;
-    
+
+}
+
+.button{
+    border-radius: 7px;
+    margin-bottom: 25px;
+    margin-left: 10px;
     
     
 }
 
 
 @media (max-width: 767px) {
+
+    .section-1{
+        margin-left: 10px;
+    }
     /* Dispositivos móveis com largura de tela até 767 pixels */
     .area-title h1 {
       font-size: 42px;
@@ -85,10 +97,11 @@ header{
         
       }
       .button  {
-        font-size: 23px;
+        font-size: 22px;
         line-height: 35px;
-        height: 6%;
+        height: 7%;
         text-align: center;
+        margin-right: 7px;
         
         
         /* Tamanho menor para dispositivos móveis */
@@ -108,11 +121,7 @@ header{
     cursor: pointer;
 }
 
-.button{
-    border-radius: 7px;
-    margin-bottom: 25px;
-    margin-left: 10px;
-}
+
 
 .image1 img{
     width: 1050px;
@@ -221,7 +230,7 @@ display: flex;
     background-color: #fff;
     margin: 0px;
     color: #205454;
-    padding-top: 25px;
+    padding-top: 45px;
     font-size: xx-large;
     
     
@@ -241,7 +250,7 @@ box-shadow: 0px 5px 10px #24847c;
 .section-3{
     background-color: #24847c;
     height: 100%;
-    height: 760px;
+    height: 780px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,14 +262,43 @@ box-shadow: 0px 5px 10px #24847c;
 }
 
 .area-title-2{
-    height: 100;
+    height: 100%;
+    
 }
 
 .area-title-2 h1{
     
     color: #fff;
-    font-size: 39px;
+    font-size: 59px;
     text-align: justify;
+
+}
+
+.image2 img{
+    width: 30%;
+    height: auto;
+    
+    margin-left: 100px;
+    float: left;
+}
+
+@media (max-width: 767px) {
+
+    .area-title-2 h1{
+        margin-left: 40px;
+        font-size: 40px;
+        text-align: center;
+        
+    
+    }
+
+    .image2 img{
+        height: 0px;
+        width: 0px;
+        
+        
+    }
+
 
 }
 
@@ -285,21 +323,57 @@ box-shadow: 0px 5px 10px #24847c;
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-left: 5px;
 }
 
 .mural-item{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 30px;
     text-align: center;
-    width: 30%;
+    width: 40%;
+    height: 250px;
     margin: 1vh;
-    font-size: 20;
+    font-size: 20px;
     margin-bottom: 40px;
+    padding: 10px;
+    box-shadow: 0px 5px  20px black;
     
-  padding: 10px;
-  box-shadow: 0px 5px  20px black;
-  
-  
+}
+
+.mural-item-b{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    text-align: center;
+    width: 40%;
+    margin: 1vh;
+    font-size: 25px;
+    margin-bottom: 40px;
+    padding: 10px;
+    box-shadow: 0px 5px  20px black;
+    line-height: 30px;
+    padding-top: 20px;
+    line-height: 30px;
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .mural-item{
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        
+
+    }
+
+
+    .mural-item-b{
+        width: 80%;
+        font-size: 20px;
+        
+        
+    }
 
 
 }
@@ -326,34 +400,43 @@ box-shadow: 0px 5px 10px #24847c;
 }
 
 
-.cardshome{
+.cardshome {
     display: flex;
     flex-direction: row;
-    box-shadow: 0px 5px 20px black;
-    
-}
-
-.card{
-    flex-direction: column-reverse;
-    background-color: #ffffff;
-    width: 20%;
-    height: 130px;
-    
+    gap: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
     align-items: center;
     text-align: center;
-    font-size: small;
-    
-    
-    
-    
-    
-    
-        
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 20%;
+    height: 135px;
+    font-size: large;
+    border-radius: 20px;
+    box-shadow: 0px 5px 25px black;
+  }
+  
+  .card img {
+    margin-bottom: 10px; /* Adiciona margem inferior para separar a imagem do texto */
+  }
 
+@media (max-width: 768px) {
+    .cardshome{
+        gap: 0px;
+    }
+
+    .card{
+        border-radius: 0px;
+        box-shadow: 1px 1px 1px  black;
         
-    
+        
+        
+    }
 }
-
 
 
 
@@ -364,10 +447,29 @@ box-shadow: 0px 5px 10px #24847c;
 
 .card img{
     padding-top: 20px;
-
     width: 60px; 
     
     
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .card{
+        font-size: 12px;
+    }
+
+    .card img{
+
+        width: 40px;
+
+    }
+
+
 }
 
 
@@ -377,13 +479,7 @@ box-shadow: 0px 5px 10px #24847c;
 
 
 
-.image2 img{
-    width: 30%;
-    height: auto;
-    
-    margin-left: 100px;
-    float: left;
-}
+
 
 .resultados{
     display: flex;
