@@ -658,6 +658,10 @@ input[type="submit"]{
       width: 50%; /* 100% para cada imagem quando está em dispositivos móveis */
       height: auto;
     }
+
+    .ytchannel{
+        width: 300px;
+    }
   }
 
 
